@@ -1,0 +1,143 @@
+#container{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 850px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 850px;
+    height: 500px;
+    opacity: 0.25;
+}
+
+#PartieGauche{
+    border-right: 2px black solid;
+    height: 325px;
+    margin-left: 55px;
+    padding-right: 65px;
+    padding-top: 125px;
+    margin-top: 25px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    color: darkred;
+    font-weight: bold;
+}
+
+#Parag2{
+    padding-top: 20px;
+}
+
+#timbre{
+    position: absolute;
+    height: 135px;
+    width: 95px;
+    border: 3px solid saddlebrown;
+    margin-top: 25px;
+    margin-left: 235px;
+    background: sandybrown;
+}
+
+
+.lignes{
+       position: absolute;
+       height: 35px;
+       width: 295px;
+       border-bottom: 2px solid black;
+       margin-top: 245px;
+       margin-left: 45px;
+   }
+.lignes2{
+    position: absolute;
+    height: 35px;
+    width: 295px;
+    border-bottom: 2px solid black;
+    margin-top: 275px;
+    margin-left: 45px;
+}
+.lignes3{
+    position: absolute;
+    height: 35px;
+    width: 295px;
+    border-bottom: 2px solid black;
+    margin-top: 305px;
+    margin-left: 45px;
+}
+
+#Carre1{
+    height: 25px;
+    width: 15px;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+#Carre2{
+    height: 25px;
+    width: 15px;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+#Carre3{
+    height: 25px;
+    width: 15px;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+#Carre4{
+    height: 25px;
+    width: 15px;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+#Carre5{
+    height: 25px;
+    width: 15px;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+#Ligne6{
+
+    width: 175px;
+    border-bottom: 2px solid black;
+}
+
+#CodePostal{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 365px;
+    margin-left: 45px;
+}
+
+
+/*
+.CodePostal{
+    height: 25px;
+    width: 15px;
+    border: 1px solid black;
+}
+
+#CodePostal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+.CodePostal_ligne{
+    border: 1px solid black;
+    width: 80px;
+    height: 25px;
+}
+
+*/
